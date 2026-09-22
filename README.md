@@ -2,12 +2,10 @@
 
 ## ft_malcolm
  
-An introduction to Man-in-the-Middle attacks — a minimal ARP spoofing tool written in C, built as part of the 42 cybersecurity curriculum.
+An introduction to Man-in-the-Middle attacks — a minimal ARP spoofing tool written in C.
  
 `ft_malcolm` waits for a target to broadcast an ARP request for a given source IP, then sends a single spoofed ARP reply mapping that source IP to an attacker-controlled MAC address — poisoning the target's ARP table.
- 
-> ⚠️ **Educational use only.** Only run this against IP addresses and networks you own or have explicit authorization to test. Spoofing ARP tables on networks you don't control is illegal in most jurisdictions.
- 
+
 ## Requirements
  
 - Linux (raw sockets, `AF_PACKET`)
