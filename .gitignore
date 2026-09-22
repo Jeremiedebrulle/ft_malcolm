@@ -1,0 +1,23 @@
+# Build artifacts
+*.o
+*.d
+ft_malcolm
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# VM / VirtualBox
+*.vdi
+*.vbox
+*.vbox-prev
+Logs/
+
+# Local env / secrets, if any get introduced later
+.env
